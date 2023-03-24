@@ -1,4 +1,4 @@
-import structured_api.{Bloggers, FireCalls, InternetOfThings}
+import dataframe.internal_sources.Flights
 
 
 // Запускать через spark-submit
@@ -7,7 +7,7 @@ import structured_api.{Bloggers, FireCalls, InternetOfThings}
 object Main {
 
   def main(args: Array[String]): Unit = {
-    InternetOfThings.things();
+    Flights.fly()
   }
 
 }

@@ -35,6 +35,7 @@ object FireCalls {
       .show(5, false)
 
    transformDate(newFireDF)
+    spark.stop()
   }
 
   private def selectByCallType(fireDF: DataFrame): Unit = {
