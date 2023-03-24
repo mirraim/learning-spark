@@ -1,4 +1,4 @@
-import structured_api.{Bloggers, FireCalls}
+import structured_api.{Bloggers, FireCalls, InternetOfThings}
 
 
 // Запускать через spark-submit
@@ -7,7 +7,7 @@ import structured_api.{Bloggers, FireCalls}
 object Main {
 
   def main(args: Array[String]): Unit = {
-    FireCalls.calls()
+    InternetOfThings.things();
   }
 
 }
