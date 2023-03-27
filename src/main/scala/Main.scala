@@ -1,4 +1,4 @@
-import dataframe.internal_sources.{Flights, TablesAndViews}
+import dataframe.internal_sources.{Flights, SourcesAndFormats, TablesAndViews}
 
 
 // Запускать через spark-submit
@@ -7,7 +7,7 @@ import dataframe.internal_sources.{Flights, TablesAndViews}
 object Main {
 
   def main(args: Array[String]): Unit = {
-    TablesAndViews.execute()
+    SourcesAndFormats.execute()
   }
 
 }
