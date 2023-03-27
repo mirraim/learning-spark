@@ -1,4 +1,4 @@
-import dataframe.internal_sources.Flights
+import dataframe.internal_sources.{Flights, TablesAndViews}
 
 
 // Запускать через spark-submit
@@ -7,7 +7,7 @@ import dataframe.internal_sources.Flights
 object Main {
 
   def main(args: Array[String]): Unit = {
-    Flights.fly()
+    TablesAndViews.execute()
   }
 
 }
