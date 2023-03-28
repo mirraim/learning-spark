@@ -1,3 +1,4 @@
+import dataframe.DataOperations
 import dataframe.external_sources.{HigherOrderFunctions, Udf}
 
 
@@ -7,7 +8,7 @@ import dataframe.external_sources.{HigherOrderFunctions, Udf}
 object Main {
 
   def main(args: Array[String]): Unit = {
-    HigherOrderFunctions.execute()
+    DataOperations.execute()
   }
 
 }
