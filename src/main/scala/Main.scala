@@ -1,5 +1,4 @@
-import dataframe.DataOperations
-import dataframe.external_sources.{HigherOrderFunctions, Udf}
+import dataset.Usage
 
 
 // Запускать через spark-submit
@@ -8,7 +7,7 @@ import dataframe.external_sources.{HigherOrderFunctions, Udf}
 object Main {
 
   def main(args: Array[String]): Unit = {
-    DataOperations.execute()
+    Usage.execute()
   }
 
 }
